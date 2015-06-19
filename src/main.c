@@ -219,7 +219,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text(header_layer, "BariBucks");
   layer_add_child(window_layer, text_layer_get_layer(header_layer));
 
-  main_menu_layer = menu_layer_create(GRect(0, 40, 144, 113));
+  main_menu_layer = menu_layer_create(GRect(0, 40, 144, 128));
   menu_layer_set_callbacks(main_menu_layer, NULL, (MenuLayerCallbacks) {
     .get_num_rows = menu_get_num_rows_callback,
     .draw_row = menu_draw_row_callback,
@@ -635,7 +635,7 @@ static void order_menu_select_callback(MenuLayer *menu_layer, MenuIndex *cell_in
 static void order_window_load(Window *window) {
   Layer *window_layer = window_get_root_layer(window);
 
-  order_menu_layer = menu_layer_create(GRect(0, 0, 144, 153));
+  order_menu_layer = menu_layer_create(GRect(0, 0, 144, 168));
   menu_layer_set_callbacks(order_menu_layer, NULL, (MenuLayerCallbacks) {
     .get_num_sections = order_menu_get_num_sections_callback,
     .get_num_rows = order_menu_get_num_rows_callback,
@@ -720,7 +720,7 @@ static void drink_window_load(Window *window) {
   text_layer_set_text(drink_specifics_text_layer, "Choose a size:");
   layer_add_child(window_layer, text_layer_get_layer(drink_specifics_text_layer));
 
-  drink_specifics_menu_layer = menu_layer_create(GRect(0, 30, 144, 123));
+  drink_specifics_menu_layer = menu_layer_create(GRect(0, 30, 144, 138));
   menu_layer_set_callbacks(drink_specifics_menu_layer, NULL, (MenuLayerCallbacks) {
     .get_num_rows = drink_menu_get_num_rows_callback,
     .draw_row = drink_menu_draw_row_callback,
@@ -817,7 +817,7 @@ static void confirmation_window_load(Window *window) {
   text_layer_set_text(confirmation_text_layer, "Anything Else?");
   layer_add_child(window_layer, text_layer_get_layer(confirmation_text_layer));
 
-  confirmation_menu_layer = menu_layer_create(GRect(0, 50, 144, 108));
+  confirmation_menu_layer = menu_layer_create(GRect(0, 50, 144, 118));
   menu_layer_set_callbacks(confirmation_menu_layer, NULL, (MenuLayerCallbacks) {
     .get_num_rows = confirmation_menu_get_num_rows_callback,
     .draw_row = confirmation_menu_draw_row_callback,
