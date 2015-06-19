@@ -1,0 +1,54 @@
+{
+  "appKeys": {
+    "KEY_BALANCE_CENTS": 13,
+    "KEY_BALANCE_DOLLARS": 12,
+    "KEY_ITEM_1": 2,
+    "KEY_ITEM_2": 3,
+    "KEY_ITEM_3": 4,
+    "KEY_ITEM_4": 5,
+    "KEY_ITEM_5": 6,
+    "KEY_ITEM_SIZE_1": 7,
+    "KEY_ITEM_SIZE_2": 8,
+    "KEY_ITEM_SIZE_3": 9,
+    "KEY_ITEM_SIZE_4": 10,
+    "KEY_ITEM_SIZE_5": 11,
+    "KEY_LETTER_1": 14,
+    "KEY_LETTER_2": 15,
+    "KEY_LETTER_3": 16,
+    "KEY_NAME": 1,
+    "KEY_NAME_STORE": 17,
+    "KEY_ORDER_TOTAL": 0
+  },
+  "capabilities": [
+    ""
+  ],
+  "companyName": "pebble.csci1121@gmail.com",
+  "longName": "BariBucks",
+  "projectType": "native",
+  "resources": {
+    "media": [
+      {
+        "file": "images/name_window.png",
+        "name": "name_window_1",
+        "type": "png"
+      },
+      {
+        "file": "images/map.png",
+        "name": "map",
+        "type": "png"
+      }
+    ]
+  },
+  "sdkVersion": "3",
+  "shortName": "BariBucks",
+  "uuid": "43921109-8adb-4d08-88aa-b5859720ae05",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ]
+}
